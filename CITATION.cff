@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this publication, mathematical proofs, verification suite, or AI agent skill in your research, please cite it using the metadata below."
-title: "De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz-Wronskian Identity for Riemann's Xi-Function"
+title: "Shifted Hermite-Biehler Kernel Identities, Local Multiplicity Jets, and Truncated Prime-Power Multipliers for Riemann's Xi-Function"
 type: software
-version: "1.0.0"
+version: "1.1.0"
 date-released: "2026-10-25"
 license: MIT
 repository-code: "https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade"
@@ -15,25 +15,26 @@ authors:
     orcid: "https://orcid.org/0009-0007-3678-0810"
 keywords:
   - "Riemann Xi-function"
-  - "De Branges reproducing kernels"
-  - "Cauchy-Pick Gram matrices"
+  - "Hermite-Biehler functions"
+  - "Cauchy-Pick matrices"
   - "transverse Wronskian"
+  - "Jensen-Laguerre polynomials"
   - "Lehmer pairs"
-  - "universal square-cascade"
   - "Leibniz-Wronskian identity"
-  - "Bochner-Weil positivity"
-  - "Gabcke-Olver remainder bound"
+  - "truncated prime-power multipliers"
 abstract: >-
-  We establish three exact structural identities linking Hilbert spaces of entire
-  functions, critical-line zero coalescence, and multiplicative prime-sieve gauges
-  to the transverse Wronskian of Riemann's Xi-function. First, for the linear
-  Hermite-Biehler family E_alpha(z) = Xi(z) - i*alpha*Xi'(z), the diagonal De Branges
-  reproducing kernel satisfies K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t)
-  everywhere in the complex plane. Second, at any critical-line zero of multiplicity
-  m >= 1, all lower transverse dipole moments c_1(t_0), ..., c_{2m-3}(t_0) vanish
-  while the leading coefficient collapses to the pure square
-  c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0, inducing a two-dimensional
-  isotropic sum-of-squares bowl across any Lehmer pair. Third, for any real-analytic
-  gauge multiplier M(z), we prove the universal Leibniz-Wronskian identity and combine
-  it with a 0%-overshoot truncated Euler-product sieve to close the Lehmer uncertainty
-  zone under the explicit Gabcke-Olver remainder bound.
+  We establish three algebraic and analytic identities relating shifted Hermite-Biehler
+  kernels, critical-line multiplicity jets, and holomorphic prime-power multipliers to
+  the transverse Wronskian W(d,t) = (1/2) d_d |Xi(t-id)|^2 of Riemann's Xi-function,
+  together with explicit circularity and domain obstructions. First, for E_alpha(z) =
+  Xi(z) - i*alpha*Xi'(z), the diagonal Nevanlinna-Pick kernel satisfies K_alpha(t-id,
+  t-id) = (alpha/pi)*W_tilde(d,t) unconditionally, while positive semidefiniteness of
+  the associated Cauchy-Pick matrices is equivalent to the Riemann Hypothesis (Levinson
+  1974, Lagarias 2005/2006). Second, at an order-m real zero of a real-entire function f,
+  the Jensen-Laguerre transverse coefficients satisfy c_1 = ... = c_{2m-3} = 0 and
+  c_{2m-1}(t_0) = [m/(m!)^2]*(f^{(m)}(t_0))^2 > 0, inducing a local quadratic bowl whose
+  definite vs. indefinite sign distinguishes real Lehmer pairs from off-critical conjugate
+  zeros. Third, we prove the cross-term-free Leibniz-Wronskian identity for holomorphic
+  multipliers, establish 0 <= b_n^E(X) <= 1 for truncated exponential Euler factors on
+  Re(s) > 1, and document the Schwarz-reflection, functional-equation, and strip-residue
+  obstructions that prevent unconditional off-line positivity.

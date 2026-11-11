@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "name": "debranges-kernels-lehmer-cascade",
-  "version": "1.0.0",
-  "title": "De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz-Wronskian Identity for Riemann's Xi-Function",
-  "description": "Exact De Branges reproducing kernel identity K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t), universal transverse square-cascade c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0 for order-m critical-line zero coalescence and 2D Lehmer-pair sum-of-squares bowls, and universal Leibniz-Wronskian identity with 0%-overshoot truncated Euler-product sieves closing the Lehmer uncertainty zone.",
+  "version": "1.1.0",
+  "title": "Shifted Hermite-Biehler Kernel Identities, Local Multiplicity Jets, and Truncated Prime-Power Multipliers for Riemann's Xi-Function",
+  "description": "Exact diagonal identity K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t) for the shifted family E_alpha = Xi - i*alpha*Xi' with explicit Hermite-Biehler equivalence to the Riemann Hypothesis, order-m Jensen-Laguerre multiplicity jets c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0 and local quadratic bowls, and Leibniz-Wronskian multiplier identities with bounded residual Dirichlet coefficients 0 <= b_n^E(X) <= 1 and explicit strip obstructions.",
   "author": {
     "name": "Thijs Missiaen",
     "email": "thijs.missiaen@gmail.com",
